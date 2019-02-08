@@ -15,6 +15,6 @@ public class Penny extends AbstractMoney
     @Override
     public String toString()
     {
-        return this.getCount() + " Penny";
+        return this.getCount() > 1 ? this.getCount() + " Pennies" : this.getCount() + " Penny";
     }
 }

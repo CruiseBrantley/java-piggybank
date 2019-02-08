@@ -15,6 +15,6 @@ public class Nickle extends AbstractMoney
     @Override
     public String toString()
     {
-        return this.getCount() + " Nickle";
+        return this.getCount() > 1 ? this.getCount() + " Nickels" : this.getCount() + " Nickel";
     }
 }

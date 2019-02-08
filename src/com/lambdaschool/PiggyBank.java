@@ -24,6 +24,6 @@ public class PiggyBank
 
     public void printValue()
     {
-        System.out.println("The piggy bank holds $" + currentValue);
+        System.out.println("The piggy bank holds $" + String.format("%.02f", currentValue));
     }
 }

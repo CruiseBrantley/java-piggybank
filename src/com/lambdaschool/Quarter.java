@@ -15,6 +15,6 @@ public class Quarter extends AbstractMoney
     @Override
     public String toString()
     {
-        return this.getCount() + " Quarter";
+        return this.getCount() > 1 ? this.getCount() + " Quarters" : this.getCount() + " Quarter";
     }
 }

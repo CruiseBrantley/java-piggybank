@@ -15,6 +15,6 @@ public class Dime extends AbstractMoney
     @Override
     public String toString()
     {
-        return this.getCount() + " Dime";
+        return this.getCount() > 1 ? this.getCount() + " Dimes" : this.getCount() + " Dime";
     }
 }
