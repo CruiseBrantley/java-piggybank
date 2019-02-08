@@ -8,9 +8,8 @@ public class PiggyBank
 
     public void add(AbstractMoney item)
     {
-        int itemCount = item.getCount();
         store[storeIndex] = item;
-        currentValue += item.getValue() * itemCount;
+        currentValue += item.getValue() * item.getCount();
         storeIndex++;
     }
 

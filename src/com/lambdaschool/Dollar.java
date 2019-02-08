@@ -4,12 +4,12 @@ public class Dollar extends AbstractMoney
 {
     public Dollar()
     {
-        super(1, "Dollar", 1.00);
+        super(1, 1.00);
     }
 
     public Dollar(int count)
     {
-        super(count, "Dollar", 1.00);
+        super(count, 1.00);
     }
 
     @Override

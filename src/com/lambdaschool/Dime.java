@@ -4,12 +4,12 @@ public class Dime extends AbstractMoney
 {
     public Dime()
     {
-        super(1, "Dime", .10);
+        super(1, .10);
     }
 
     public Dime(int count)
     {
-        super(count, "Dime", .10);
+        super(count, .10);
     }
 
     @Override

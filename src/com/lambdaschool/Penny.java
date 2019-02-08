@@ -4,12 +4,12 @@ public class Penny extends AbstractMoney
 {
     public Penny()
     {
-        super(1, "Penny", .01);
+        super(1, .01);
     }
 
     public Penny(int count)
     {
-        super(count, "Penny", .01);
+        super(count, .01);
     }
 
     @Override

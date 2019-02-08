@@ -4,12 +4,12 @@ public class Quarter extends AbstractMoney
 {
     public Quarter()
     {
-        super(1, "Quarter", .25);
+        super(1, .25);
     }
 
     public Quarter(int count)
     {
-        super(count, "Quarter", .25);
+        super(count, .25);
     }
 
     @Override
