@@ -15,7 +15,7 @@ public class PiggyBank
 
     public void printContents()
     {
-        for (int i = 1; i < storeIndex; i++)
+        for (int i = 1; i <= storeIndex; i++)
         {
             System.out.println(store[i - 1].toString());
         }
